@@ -1,0 +1,7 @@
+form_api_example.input_staff_list:
+  path: '/input-Staff-list'
+  defaults:
+    _form:  '\Drupal\form_api_example\Form\InputStaffList'
+    _title: 'Input Staff List'
+  requirements:
+    _permission: 'access content'
